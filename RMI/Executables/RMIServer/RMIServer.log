@@ -1,0 +1,8 @@
+2013-10-19 18:57:24,821 [DEBUG][com.MainServer] Loading properties...
+2013-10-19 18:57:24,834 [DEBUG][com.MainServer] Properties loaded
+2013-10-19 18:57:24,967 [ERROR][com.MainServer] RMI registry not found on //ec2-54-226-74-253.compute-1.amazonaws.com:1099
+2013-10-19 18:57:24,968 [INFO][com.MainServer] Creating RMI registry on //ec2-54-226-74-253.compute-1.amazonaws.com:1099 ...
+2013-10-19 18:57:30,795 [DEBUG][com.pk.service.UserService] Login requested by: pramod
+2013-10-19 18:57:31,998 [DEBUG][com.pk.service.UserService] pramod is authenticated with sessionId=l0smfurc86q4k0k647c8t9gng2
+2013-10-19 18:57:33,165 [DEBUG][com.pk.rmi.FileRemote] Table list requested by: pramod
+2013-10-19 18:57:37,778 [DEBUG][com.pk.rmi.AuthRemote] Logout done for: pramod

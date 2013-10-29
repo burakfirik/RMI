@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <servlet>
+        <servlet-name>Main Controller</servlet-name>
+        <servlet-class>com.pk.servlet.MainController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Main Controller</servlet-name>
+        <url-pattern>/controller</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>rmi_server_ip</param-name>
+        <param-value>ec2-54-226-74-253.compute-1.amazonaws.com</param-value>
+    </context-param>
+
+    <!--<context-param>
+        <param-name>rmi_server_ip</param-name>
+        <param-value>localhost</param-value>
+    </context-param>-->
+    <context-param>
+        <param-name>rmi_server_port</param-name>
+        <param-value>1099</param-value>
+    </context-param>
+</web-app>
